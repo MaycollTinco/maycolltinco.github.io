@@ -1,0 +1,92 @@
+  /* Estilos futuristas */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+  }
+  .header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #00bfff;
+  }
+  .header .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .header .nav-links li a {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #00bfff;
+    margin-left: 2rem;
+  }
+  .header .nav-links li a:hover {
+    color: #fff;
+  }
+  .header .toggle-button {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #00bfff;
+    cursor: pointer;
+    font-size: 2rem;
+    margin-right: 2rem;
+  }
+  .header .toggle-button:hover {
+    color: #fff;
+  }
+  .header .toggle-button .bar {
+    width: 2.5rem;
+    height: 0.25rem;
+    background-color: #00bfff;
+    margin: 0.5rem 0;
+  }
+  .header .toggle-button .bar:first-of-type {
+    transform: rotate(45deg);
+    transform-origin: left;
+  }
+  .header .toggle-button .bar:nth-of-type(2) {
+    opacity: 0;
+  }
+  .header .toggle-button .bar:last-of-type {
+    transform: rotate(-45deg);
+    transform-origin: left;
+  }
+  /* Estilos para el modo oscuro */
+  .header.dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  .header.dark-mode .logo {
+    color: #fff;
+  }
+  .header.dark-mode .nav-links li a {
+    color: #fff;
+  }
+  .header.dark-mode .toggle-button {
+    color: #fff;
+  }
+  .header.dark-mode .toggle-button .bar {
+    background-color: #fff;
+  }
+
+.elegant-text {
+  font-family: 'Open Sans', sans-serif; /* Utiliza una fuente elegante */
+  font-size: 24px; /* Tamaño de letra */
+  color: #4d4d4d; /* Color de letra */
+  text-shadow: 2px 2px #f2f2f2; /* Sombra de letra para dar profundidad */
+  letter-spacing: 1px; /* Espaciado entre letras */
+}
+
+.dark-mode {
+    background-color: #222222;
+    color: #ffffff;
+  }
+  
+  .light-mode {
+    background-color: #ffffff;
+    color: #222222;
+  }
